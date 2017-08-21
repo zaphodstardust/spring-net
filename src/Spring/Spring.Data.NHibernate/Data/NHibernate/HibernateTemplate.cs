@@ -646,6 +646,7 @@ namespace Spring.Data.NHibernate
             Execute(new SaveOrUpdateAllHibernateCallback(this, entities), true);
         }
 
+
 #if !NH_4_0
         /// <summary>
         /// Save or update the contents of given persistent object,
@@ -664,6 +665,7 @@ namespace Spring.Data.NHibernate
             return Execute(new SaveOrUpdateCopyHibernateCallback(this, entity), true);
         }
 #endif
+
 
         /// <summary>
         /// Copy the state of the given object onto the persistent object with the same identifier. 
@@ -2144,6 +2146,7 @@ namespace Spring.Data.NHibernate
         }
     }
 
+
 #if !NH_4_0
     internal class SaveOrUpdateCopyHibernateCallback : IHibernateCallback
     {
@@ -2175,6 +2178,7 @@ namespace Spring.Data.NHibernate
         }
     }
 #endif
+
 
     internal class MergeHibernateCallback : IHibernateCallback
     {

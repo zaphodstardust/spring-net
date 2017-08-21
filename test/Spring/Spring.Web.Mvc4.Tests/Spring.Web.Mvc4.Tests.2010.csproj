@@ -75,10 +75,6 @@
       <Name>Spring.Core.2010</Name>
       <Private>True</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\src\Spring\Spring.Web.Mvc4\Spring.Web.Mvc4.2010.csproj">
-      <Project>{CB351EB2-049D-40BE-BB09-1CE4ED68FE67}</Project>
-      <Name>Spring.Web.Mvc4.2010</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
@@ -108,4 +104,3 @@
   </Target>
   -->
 </Project>
-

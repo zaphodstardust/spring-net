@@ -87,7 +87,7 @@ namespace Spring.Web.Conversation
         {
             if (LOG.IsDebugEnabled) LOG.Debug(String.Format("Validating Circular Dependency: added={0} into {1}", itemAdded, this.conversationOwner));
 
-            ICollection<IConversationState> visitedColl = new HashedSet<IConversationState>();
+            ICollection<IConversationState> visitedColl = new Collections.Generic.HashedSet<IConversationState>();
             visitedColl.Add(conversationOwner);
 
             IConversationState parentAncestor = this.conversationOwner;

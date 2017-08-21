@@ -1,11 +1,12 @@
 ﻿{
   "dependencies": {
-    "Common.Logging": "3.0.0",
-    "Common.Logging.Core": "3.0.0",
+    "Common.Logging": "3.4.1",
+    "Common.Logging.Core": "3.4.1",
+    "NHibernate": "4.1.1.4000",
     "NVelocity": "1.0.3"
   },
   "frameworks": {
-    "net4": {}
+    "net462": {}
   },
   "runtimes": {
     "win-anycpu": {},

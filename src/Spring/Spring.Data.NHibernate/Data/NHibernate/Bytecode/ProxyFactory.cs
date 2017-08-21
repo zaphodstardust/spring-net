@@ -23,6 +23,7 @@ using Common.Logging;
 using NHibernate;
 using NHibernate.Engine;
 using NHibernate.Proxy;
+using NHibernate.Util;
 
 namespace Spring.Data.NHibernate.Bytecode
 {
@@ -61,7 +62,7 @@ namespace Spring.Data.NHibernate.Bytecode
             {
                 // PersistentClass = PersistentClass.IsInterface ? typeof(object) : PersistentClass
                 LazyInitializer initializer = new LazyInitializer(EntityName, PersistentClass,
-                                                      id, GetIdentifierMethod, SetIdentifierMethod, ComponentIdType, session);
+                                                      id, GetIdentifierMethod, SetIdentifierMethod, ComponentIdType, session, ReflectHelper.OverridesEquals(PersistentClass));
 
                 SerializableProxyFactory proxyFactory = new SerializableProxyFactory();
                 proxyFactory.Interfaces = Interfaces;

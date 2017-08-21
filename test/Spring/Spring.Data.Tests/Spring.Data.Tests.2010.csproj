@@ -21,7 +21,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Spring</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -53,6 +53,7 @@
     <ErrorReport>prompt</ErrorReport>
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <WarningsAsErrors>219</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>..\..\..\build\VS.Net.2010\Spring.Data.Tests\Release\</OutputPath>
@@ -75,6 +76,7 @@
     <WarningLevel>4</WarningLevel>
     <DebugType>none</DebugType>
     <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Rhino.Mocks, Version=2.9.6.40380, Culture=neutral, PublicKeyToken=0b3305902db7183f">
@@ -200,4 +202,3 @@ xcopy "$(ProjectDir)Data" ..\..\..\..\build\VS.Net.2010\Spring.Data.Tests\$(Conf
 xcopy "$(ProjectDir)$(TargetFileName).config" ..\..\..\..\build\VS.Net.2010\Spring.Data.Tests\$(ConfigurationName)\ /y /s /q</PostBuildEvent>
   </PropertyGroup>
 </Project>
-

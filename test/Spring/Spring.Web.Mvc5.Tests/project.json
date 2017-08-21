@@ -1,13 +1,14 @@
 ﻿{
   "dependencies": {
-    "Common.Logging": "3.0.0",
-    "Common.Logging.Core": "3.0.0",
+    "Common.Logging": "3.4.1",
+    "Common.Logging.Core": "3.4.1",
     "Microsoft.AspNet.Mvc": "5.2.3",
     "Microsoft.AspNet.WebApi.WebHost": "5.2.3",
-    "NUnit": "3.5.0"
+    "NHibernate": "4.1.1.4000",
+    "NUnit": "3.7.1"
   },
   "frameworks": {
-    "net45": {}
+    "net462": {}
   },
   "runtimes": {
     "win-anycpu": {},

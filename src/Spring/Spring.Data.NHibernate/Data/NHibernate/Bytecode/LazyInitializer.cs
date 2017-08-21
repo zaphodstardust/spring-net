@@ -52,12 +52,13 @@ namespace Spring.Data.NHibernate.Bytecode
         ///<param name="setIdentifierMethod"></param>
         ///<param name="componentIdType"></param>
         ///<param name="session"></param>
+        ///<param name="overridesEquals"></param>
         public LazyInitializer(string entityName, Type persistentClass, object id, MethodInfo getIdentifierMethod,
                                MethodInfo setIdentifierMethod, IAbstractComponentType componentIdType,
-                               ISessionImplementor session)
+                               ISessionImplementor session, bool overridesEquals)
             : base(
                 entityName, persistentClass, id, getIdentifierMethod,
-                setIdentifierMethod, componentIdType, session) { }
+                setIdentifierMethod, componentIdType, session, overridesEquals) { }
 
         #region Implementation of IInterceptor
 
