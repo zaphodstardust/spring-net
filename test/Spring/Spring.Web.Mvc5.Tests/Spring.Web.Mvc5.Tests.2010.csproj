@@ -20,22 +20,25 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\build\VS.Net.2010\Spring.Web.Mvc5.Tests\Debug\</OutputPath>
+    <OutputPath>..\..\..\build\VS.Net.2010\Debug\</OutputPath>
     <DefineConstants>TRACE;DEBUG;NET_3_5;NET_4_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>..\..\..\build\VS.Net.2010\Debug\Spring.Web.Mvc5.Tests.xml</DocumentationFile>
+    <NoWarn>219, 162, 618, 1591</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\build\VS.Net.2010\Spring.Web.Mvc5.Tests\Release\</OutputPath>
+    <OutputPath>..\..\..\build\VS.Net.2010\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <Prefer32Bit>false</Prefer32Bit>
+    <NoWarn>219, 162, 618, 1591</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

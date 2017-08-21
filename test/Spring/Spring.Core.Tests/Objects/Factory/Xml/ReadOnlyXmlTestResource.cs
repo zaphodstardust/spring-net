@@ -122,6 +122,8 @@ namespace Spring.Objects.Factory.Xml
             path.Append (associatedTestType.Namespace.Replace (".", Path.DirectorySeparatorChar.ToString()));
             path.Append (Path.DirectorySeparatorChar.ToString()).Append (fileName);
 
+            Console.Out.WriteLine(path);
+
             FileInfo file = new FileInfo(path.ToString());
             if (file.Exists)
             {

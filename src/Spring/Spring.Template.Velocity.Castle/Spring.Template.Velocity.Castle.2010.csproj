@@ -40,23 +40,24 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\build\VS.NET.2010\Spring.Template.Velocity.Castle\Debug\</OutputPath>
+    <OutputPath>..\..\..\build\VS.Net.2010\Debug\</OutputPath>
     <DefineConstants>TRACE;DEBUG;NET_4_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\..\..\build\VS.NET.2010\Spring.Template.Velocity.Castle\Debug\Spring.Template.Velocity.xml</DocumentationFile>
+    <DocumentationFile>..\..\..\build\VS.Net.2010\Debug\Spring.Template.Velocity.Castle.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\build\VS.NET.2010\Spring.Template.Velocity.Castle\Release\</OutputPath>
+    <OutputPath>..\..\..\build\VS.Net.2010\Release\</OutputPath>
     <DefineConstants>TRACE;NET_4_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <DocumentationFile>..\..\..\build\VS.NET.2010\Spring.Template.Velocity.Castle\Release\Spring.Template.Velocity.XML</DocumentationFile>
+    <DocumentationFile>
+    </DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>

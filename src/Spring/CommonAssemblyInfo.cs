@@ -10,10 +10,10 @@ using System.Reflection;
 // associated with an assembly.
 //
 
-[assembly: AssemblyConfiguration("net-4.0.win32; Release")]
+[assembly: AssemblyConfiguration("net-4.6.win32; Release")]
 [assembly: AssemblyCompany("http://www.springframework.net")]
 [assembly: AssemblyProduct("Spring.NET Framework 1.3.1")]
-[assembly: AssemblyCopyright("Copyright 2002-2011 Spring.NET Framework Team.")]
+[assembly: AssemblyCopyright("Copyright 2002-2017 Spring.NET Framework Team.")]
 [assembly: AssemblyTrademark("Apache License, Version 2.0")]
 [assembly: AssemblyCulture("")]
 
@@ -39,7 +39,7 @@ using System.Reflection;
 #elif NET_4_5
 [assembly: AssemblyVersion("2.0.0.45001")]
 #elif NET_4_0
-[assembly: AssemblyVersion("2.0.0.40001")]
+[assembly: AssemblyVersion("2.0.0.46001")]
 #elif NET_3_5
 [assembly: AssemblyVersion("2.0.0.35001")]
 #endif
