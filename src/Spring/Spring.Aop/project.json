@@ -2,7 +2,8 @@
   "dependencies": {
     "Common.Logging": "3.4.1",
     "Common.Logging.Core": "3.4.1",
-    "NHibernate": "4.1.1.4000"
+    "NHibernate": "4.1.1.4000",
+    "Iesi.Collections": "4.0.2" 
   },
   "frameworks": {
     "net462": {}

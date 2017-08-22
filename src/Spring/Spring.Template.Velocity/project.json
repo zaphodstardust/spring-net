@@ -3,7 +3,8 @@
     "Common.Logging": "3.4.1",
     "Common.Logging.Core": "3.4.1",
     "NHibernate": "4.1.1.4000",
-    "NVelocity": "1.0.3"
+    "NVelocity": "1.0.3",
+    "Iesi.Collections": "4.0.2"
   },
   "frameworks": {
     "net462": {}

@@ -5,6 +5,7 @@
     "Microsoft.AspNet.Mvc": "5.2.3",
     "Microsoft.AspNet.WebApi.WebHost": "5.2.3",
     "NHibernate": "4.1.1.4000",
+    "Iesi.Collections": "4.0.2",
     "NUnit": "3.7.1"
   },
   "frameworks": {
